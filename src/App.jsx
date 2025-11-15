@@ -1,9 +1,10 @@
-import MouseTrail from "./components/mouse-trail/MouseTrail";
+import Navbar from "./components/animated-sidebar/Navbar";
 
 const App = () => {
   return (
     <>
-      <MouseTrail />
+      <Navbar />
+      <div className="min-h-screen bg-neutral-950"></div>
     </>
   );
 };
