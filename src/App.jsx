@@ -1,10 +1,10 @@
 import Navbar from "./components/animated-sidebar/Navbar";
+import ScrollAnimationCard from "./components/scroll-animation-card/ScrollAnimationCard";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <div className="min-h-screen bg-neutral-950"></div>
+      <ScrollAnimationCard />
     </>
   );
 };
