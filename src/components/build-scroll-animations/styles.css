@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lateef:wght@200;300;400;500;600;700;800");
 
 body{
     min-height: 100vh;
@@ -6,9 +6,4 @@ body{
     background-color: #fadadd;
     color: #73403c;
     overflow-x: hidden; 
-}
-
-.section-1{
-    background-color: #fadadd;
-    background-image: linear-gradient(147deg, #fadadd 0%, #fc9ead 74%);
 }
